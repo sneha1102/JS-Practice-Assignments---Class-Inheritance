@@ -6,6 +6,8 @@ class shape {
     this.color = "green";
   }
   drwaShape() {}
-  calculateArea() {}
+  calculateArea() {
+    console.log("shape area");
+  }
 }
 module.exports = shape;

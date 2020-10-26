@@ -6,7 +6,9 @@ class circle extends shape {
     super();
     this.color = "yellow";
   }
-  calculateArea() {}
+  calculateArea() {
+    console.log("circle area");
+  }
 }
 
 // export class using module.exports
