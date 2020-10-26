@@ -4,7 +4,6 @@ const shape = require("shape");
 class circle extends shape {
   constructor() {
     super();
-    this.color = "yellow";
   }
   calculateArea() {
     console.log("circle area");
