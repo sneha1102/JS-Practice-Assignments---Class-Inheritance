@@ -5,9 +5,7 @@ class circle extends shape {
   constructor() {
     super();
   }
-  calculateArea() {
-    console.log("circle area");
-  }
+  calculateArea() {}
 }
 
 // export class using module.exports
