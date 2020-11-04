@@ -1,5 +1,5 @@
 class Shape {
-  color = null;
+  color = "red";
 
   constructor(color) {
     this.color = color;
