@@ -1,8 +1,9 @@
 class Shape {
-  color = "red";
-
-  constructor(color) {
-    this.color = color;
+  constructor() {
+    super();
+    this.color = "red";
+    this.drawShape = this.drawShape.bind(this);
+    this.calculateArea = this.calculateArea.bind(this);
   }
   drawShape = function () {};
   calculateArea = function () {};
